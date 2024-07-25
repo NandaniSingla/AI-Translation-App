@@ -129,15 +129,7 @@ const App = () => {
 
           
 
-          <input
-            type="radio"
-            id="punjabi"
-            name="language"
-            value="Punjabi"
-            checked={formData.language === "Punjabi"}
-            onChange={handleInputChange}
-          />
-          <label htmlFor="punjabi">Punjabi</label>
+       
 
           <input
             type="radio"
